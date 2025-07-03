@@ -71,13 +71,13 @@ body {
 /* Search Icon */
 .search-icon-container {
   display: inline;
-  margin-left: 7.9em;
+  margin-left: 8em;
 }
 
 .search-icon-container > img {
   width: 40px;
   display: inline;
-  margin-left: 10.5em;
+  margin-left: 11.5em;
 }
 
 .better-health > img {
