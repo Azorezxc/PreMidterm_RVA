@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Glass+Antiqua&family=Great+Vibes&family=Paytone+One&family=Rhodium+Libre&family=Righteous&display=swap");
+
+body {
+  background-image: url(../img/bggg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background: #b09464;
+  padding: 10px;
+}
+
+.title-container {
+  display: inline;
+}
+
+.title-container > h1 {
+  font-family: "Paytone One", sans-serif;
+  display: inline;
+  font-size: 50px;
+  margin-block: 0px;
+}
+
+.title-container > h1:first-child {
+  font-weight: 300;
+  color: #ffe999;
+}
+
+.title-container > h1:nth-child(2) {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* Navigation Links */
+.links {
+  font-family: "Abel", sans-serif;
+  display: inline;
+  font-size: 30px;
+  margin-left: 6em;
+}
+
+.links > ul {
+  list-style: none;
+  display: inline;
+  margin-block: 0px;
+  padding: 0;
+}
+
+.links > ul > li {
+  text-align: center;
+  display: inline;
+  margin: 0;
+  color: #ffffff;
+  position: relative;
+  bottom: 10px;
+  padding-left: 23px;
+}
+
+.links > ul > li:first-child {
+  background: #ffe999;
+  padding-top: 50px;
+  padding-bottom: 25.5px;
+  padding-right: 17px;
+  color: black;
+}
+
+/* Search Icon */
+.search-icon-container {
+  display: inline;
+  margin-left: 8em;
+}
+
+.search-icon-container > img {
+  width: 40px;
+  display: inline;
+  margin-left: 11.5em;
+}
+
+.better-health > img {
+  margin-left: auto;
+  margin-right: 295px;
+  display: block;
+  height: 700px;
+  width: 800px;
+}
+
+.main-body {
+  background-color: #efd2b5;
+  padding: 40px 20px 0 20px;
+  font-size: 0;
+  text-align: center;
+}
+
+.main-body > ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.left-column,
+.right-column {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  text-align: left;
+}
+
+.left-column {
+  width: 65%;
+  padding-right: 20px;
+}
+
+.right-column {
+  width: 30%;
+}
+
+.item-block {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.item-block > img {
+  float: left;
+  width: 320px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.item-inside {
+  padding-top: 20px;
+}
+
+.item-inside > h2 {
+  font-family: "Righteous", sans-serif;
+  font-size: 37px;
+  font-weight: 300;
+  margin: 8px 0;
+}
+
+.item-inside > p {
+  font-family: "Rhodium Libre", serif;
+  font-size: 22px;
+  width: 500px;
+  display: inline-block;
+}
+
+/* Trends Section */
+.right-column > h2 {
+  font-family: "Righteous", sans-serif;
+  color: #ffffff;
+  background-color: #b09464;
+  font-size: 37px;
+  padding: 10px 0 10px 0;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 250px;
+  position: relative;
+  top: 30px;
+  left: 140px;
+  text-align: center;
+}
+
+.trends-container {
+  background-color: #fff8dc;
+  width: 400px;
+  margin-left: 60px;
+}
+
+.trends-item {
+  padding-top: 20px;
+}
+
+.trends-item h3 {
+  margin: 0;
+  font-family: "Rhodium Libre", serif;
+  font-size: 29px;
+  text-align: left;
+  padding-left: 55px;
+  font-weight: 500;
+  padding-bottom: 0;
+}
+
+.trends-item img {
+  display: block;
+  margin: 0px auto;
+  width: 270px;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.trends-item p {
+  padding-top: 15px;
+  text-align: center;
+  margin: 0;
+  font-family: "Rhodium Libre", serif;
+  font-size: 17px;
+  color: black;
+}
+.trends-container .trends-item:first-child {
+  padding-top: 80px;
+}
+.body-lower {
+  background-color: #fff8dc;
+  text-align: center;
+}
+
+.body-lower > ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 50px 0 50px;
+  display: inline-block;
+}
+
+.body-lower > ul > li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+
+.body-lower > img {
+  width: 400px;
+  padding: 20px 0 20px 0;
+}
+
+.body-lower > ul > li > p {
+  font-family: "Great Vibes", cursive;
+  color: #8d3409;
+  font-size: 70px;
+  padding-left: 50px;
+}
+
+.body-lower .health {
+  font-family: "Glass Antiqua", cursive;
+  font-size: 75px;
+  padding-left: 20px;
+  color: #8d3409;
+  position: relative;
+  top: 10px;
+}
+.footer {
+  background-color: #b09464;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+.footer > p {
+  font-family: "Abel", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+}
